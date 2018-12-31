@@ -69,7 +69,7 @@ client.on('warn', e => {
 client.on("guildMemberAdd", async member => {
   console.log(`${member.id} joined the server.`)
   
-  let welcomechannel = member.guild.channels.find("name", "bievenue")
+  let welcomechannel = member.guild.channels.find("name", "bienvenue")
   let welcomeembed = new Discord.RichEmbed()
   .setColor("#f561fd")
   .setDescription(`Bienvenue, ${member} sur ${member.guild.name}.`)
