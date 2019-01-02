@@ -72,7 +72,7 @@ client.on("guildMemberAdd", async member => {
   let welcomechannel = member.guild.channels.find("name", "bienvenue")
   let welcomeembed = new Discord.RichEmbed()
   .setColor("#f561fd")
-  .setDescription(`Bienvenue, ${member} sur ${member.guild.name}.\rVous êtes le **${member.guild.users.size}** membres sur le serveur.`)
+  .setDescription(`Bienvenue, ${member} sur ${member.guild.name}.\rVous êtes le **${member.guild.memberCount}** membres sur le serveur.`)
   welcomechannel.send(welcomeembed);
 });
 client.on('error', e => {
