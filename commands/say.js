@@ -8,15 +8,9 @@ message.delete()
    .setColor("RANDOM")
    .setImage("https://cdn.discordapp.com/attachments/529094343806550036/533404554851778571/Kanna.png")
    
-
-
-
-
-
-
     message.channel.send(msg);
 
-    
+ }
 };
     exports.conf = {
       enabled: true,
@@ -30,4 +24,4 @@ message.delete()
       description: 'Lance',
       usage: 'leçonjp <image> <message>',
       aliase: ['ljp']
-}
+    }
