@@ -1,6 +1,6 @@
 
 const Discord = require('discord.js');
-const Color = require('../color.json');
+
 
 
 exports.run = function(client, message, args) {
